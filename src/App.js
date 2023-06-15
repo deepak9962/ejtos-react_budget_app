@@ -34,13 +34,20 @@ const App = () => {
                         <ExpenseTotal />
                     </div>
                     {/* Add ExpenseList component here under */}
-                    <ExpenseList />
-
-                    {/* Add ExpenseItem component here under */}
+                    <h3 className='mt-3'>Allocation</h3>
+                    <div className='row'>
+                        <div className='col-sm'>
+                            <ExpenseList />
+                        </div>
+                    </div>
 
                     {/* Add AllocationForm component here under */}
-                    <AllocationForm />
-
+                    <h3 className='mt-3'>Change allocation</h3>
+                    <div className='row mt-3'>
+                        <div className='col-sm'>
+                            <AllocationForm />
+                        </div>
+                    </div>
                 </div>
             </div>
         </AppProvider>
